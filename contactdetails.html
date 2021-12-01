@@ -44,6 +44,15 @@
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
   }
 </style>
+<script>
+  function validateForm() {
+    let x = document.forms["myForm"]["uname"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+    }
+  }
+  </script>
 <meta charset="utf-8">
 <title>Contact Details</title>
 <link rel="stylesheet" href="">
@@ -61,9 +70,9 @@
   </br></br>
   <div class="html-form">
   <h1>Contact Details</h1>
-    <form action="mailto:geetham@pdx.edu" method="post" enctype="text/plain">
-      <p><strong>Your Name: </strong><input type="text" name=""><br></p>
-      <p><strong>Your Email: </strong><input type="email" name=""><br></p>
+    <form name="myForm" action="/action_page.php" method="post" onsubmit="return validateForm()">
+      <p><strong>Your Name: </strong><input type="text" name="uname"><br></p>
+      <p><strong>Your Email: </strong><input type="email" name="email"><br></p>
       <p><strong>Message: </strong><textarea name="name" rows="3" cols="30"></textarea><br></p>
       <br>
       <input class="sub" type="submit" value="Submit" />
