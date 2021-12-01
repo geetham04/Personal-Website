@@ -1,36 +1,73 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <style>
-
+<style>
   body{
-   background-color: #EAF6F6;
- }
- h1{
-   color: #66BFBF;
- }
- .sub{
-   background: #11cdd4;
-   color: #ffffff;
- }
-
-  </style>
-  <meta charset="utf-8">
-  <title>Contact Details</title>
-  <link rel="stylesheet" href="">
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    background-color: #EAF6F6;
+  }
+  h1{
+    color: #66BFBF;
+  }
+  .sub{
+    background: #11cdd4;
+    color: #ffffff;
+  }
+  .topnav{
+    overflow: hidden;
+    background-color: #66BFBF;
+    width: 100%;
+    top: 0;
+    position: fixed;
+  }
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover{
+    background-color: #fff;
+    color: #66BFBF;
+  }
+  .html-form {
+    display: table;
+    /* background-color: white; */
+    width: 300px;
+    padding: 15px;
+    margin: 30px auto 0 auto;
+    border: solid 1px #66BFBF;
+    border-radius: 7px;
+    /* box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15); */
+  }
+</style>
+<meta charset="utf-8">
+<title>Contact Details</title>
+<link rel="stylesheet" href="">
 </head>
 <body>
+  <div class="top-container">
+    <div class="topnav">
+      <a href="index.html#contact">Contact</a>
+      <a href="index.html#My Projects.">Projects</a>
+      <a href="index.html#previous_work">Previous Work</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html">Home</a>
+    </div>
+  </div>
+  </br></br>
   <div class="html-form">
   <h1>Contact Details</h1>
     <form action="mailto:geetham@pdx.edu" method="post" enctype="text/plain">
       <p><strong>Your Name: </strong><input type="text" name=""><br></p>
       <p><strong>Your Email: </strong><input type="email" name=""><br></p>
       <p><strong>Message: </strong><textarea name="name" rows="3" cols="30"></textarea><br></p>
-
       <br>
       <input class="sub" type="submit" value="Submit" />
-
-
     </form>
   </div>
 

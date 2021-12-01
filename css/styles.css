@@ -166,3 +166,11 @@ nav{
 .button1:hover {
   background-color: #ddd;
 }
+
+@media screen and  (max-width: 550px){
+  .topnav a{
+    display: block;
+  }
+
+
+}
