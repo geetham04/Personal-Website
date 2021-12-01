@@ -104,7 +104,7 @@ nav{
   margin: 100px auto 100px auto;
   text-align: left;
 }
- .skill-set{
+.skill-set{
   margin-left: 10px;
 }
 .database-img{
@@ -122,11 +122,7 @@ nav{
   float: left;
   margin-right: 30px;
 }
-.java-img{
-  width: 20%;
-  float:right;
-  margin-left: 30px;
-}
+
 .contact-message{
   width:40%;
   margin: 40px auto 60px;
@@ -148,7 +144,6 @@ nav{
 }
 
 .button1 {
-  border: none;
   display: inline-block;
   padding: 12px 24px!important;
   overflow: hidden;
@@ -157,7 +152,6 @@ nav{
   color: #fff;
   background-color: #66BFBF;
   text-align: center;
-  cursor: pointer;
   border: none;  
 }
 
