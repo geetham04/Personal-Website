@@ -20,13 +20,13 @@ body{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 14px 16px;
+  margin:0px;
   text-decoration: none;
   font-size: 17px;
 }
 
 .topnav a:hover{
-  background-color: #fff;
-  color: #66BFBF;
+  color: #111;
 }
 
 h1{
