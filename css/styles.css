@@ -48,14 +48,14 @@ h3{
   color: #11999E;
 }
 
-a{
+.footer-link{
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   margin:10px 20px;
   text-decoration: none;
 }
 
-a:hover{
+.footer-link:hover{
   color: #EAF6F6;
 }
 
@@ -68,12 +68,6 @@ hr{
 
 p{
   line-height: 2;
-}
-
-nav{
-  position: fixed;
-  background: #66BFBF;
-  padding:0px 20px;
 }
 
 .top-container{
@@ -167,10 +161,3 @@ nav{
   background-color: #ddd;
 }
 
-@media screen and  (max-width: 550px){
-  .topnav a{
-    display: block;
-  }
-
-
-}
